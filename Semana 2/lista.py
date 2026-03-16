@@ -90,8 +90,74 @@ def main():
 
     # liss =[2,4,6,78,8,9,9]
     # imprimeLista(liss)
+
+    # Questão 11
+    # def somaLista(lista):
+    #     soma = 0
+    #     for i in range(len(lista)):
+    #         soma += lista[i]
+    #     return soma
+    # liss =[2,4,6,8,8,9,9]
+    # print(somaLista(liss))
+
+    # Questão 12
+    # def indice(lista,cac):
+    #     aux = []
+    #     for i in range(len(lista)):
+    #         if lista[i] == cac:
+    #             aux.append(i)
+    #     return aux
+    # print(indice("Thomas","h"))
+
+    # Questão 13
+    # def estaOrdenado(lista):
+    #     aux = 0
+    #     for i in range(len(lista)):
+    #         for n in range(len(lista)):
+    #             if lista[i] > lista[n] and i <= n:
+    #                 aux = 1
+    #                 n += 1
+    #     if aux == 1:
+    #         print("Não está ordenado")
+    #     else:
+    #         print("Está ordenado")
+                
+    # liss = [1,2, 3, 4]
+    # estaOrdenado(liss)
+
+    # Questão 14
+    # def divideNumero(lista):
+    #     aux = {
+    #         "pares": [],
+    #         "ímpares": []
+    #     }
+    #     for i in range(len(lista)):
+    #         if lista[i] % 2 == 0:
+    #             aux["pares"].append(lista[i])
+    #         else:
+    #             aux["ímpares"].append(lista[i])
+    #     return aux
+    # print(divideNumero([2,3,5,7,8,3,1,2]))
+
+    # Questão 15
+    # def removerInicio(dicionario):
+    #     aux = [dicionario["1°"]]
+    #     for i in dicionario.values():
+    #         print(i)
+    #         print(aux)
+    #         if not i in aux:
+    #             for n in dicionario.keys():
+    #                 dicionario[n] = i
+    #             aux.append(i)
+    #     print(dicionario)
+    # dicio = {
+    #     "1°": "um",
+    #     "2°": "dois",
+    #     "3°": "três",
+    #     "4°": "quatro",
+    # }
+    # removerInicio(dicio)
     print("")
-    
 
 if __name__ == "__main__":
     main()
