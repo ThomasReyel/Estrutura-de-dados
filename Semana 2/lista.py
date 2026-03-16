@@ -63,6 +63,18 @@ def main():
     # onde em toda repetição do for ele vai adicionar o nome (nomes[i]) como chave e a quantidade de letras do nome (len(nomes[i]))
 
     # Questão 7
+    # def ordenarLista(lista):
+    #     n = len(lista)
+    #     for i in range(n):
+    #         for j in range(0, n-i-1):
+    #             if lista[j]["pontos"] > lista[j+1]["pontos"]:
+    #                 lista[j], lista[j+1] = lista[j+1], lista[j]
+    #     print(lista)
+        
+    # jogadores = [{'nome': 'A', "pontos": 10}, {'nome': 'B', "pontos": 50},{'nome': 'C', "pontos": 30}]
+    # ordenarLista(jogadores)
+    #Utilizando um algorítmo de ordenação (bubble sort) que É um algoritmo simples onde cada elemento da lista é comparado com o próximo, 
+    #e os elementos são trocados se estiverem fora de ordem (crescente). O processo se repete até que a lista esteja ordenada.
 
 
     # Questão 8
@@ -141,23 +153,36 @@ def main():
 
     # Questão 15
     # def removerInicio(dicionario):
-    #     aux = [dicionario["1°"]]
-    #     for i in dicionario.values():
-    #         print(i)
-    #         print(aux)
-    #         if not i in aux:
-    #             for n in dicionario.keys():
-    #                 dicionario[n] = i
-    #             aux.append(i)
-    #     print(dicionario)
+    #     valores = list(dicionario.values())
+    #     valores.pop(0)
+    #     chaves = list(dicionario.keys())
+    #     dicionario.clear()
+    #     for i in range(len(valores)):
+    #         dicionario[chaves[i]] = valores[i]
+
+    #     print("Dicionário após o deslocamento:", dicionario)
+
     # dicio = {
     #     "1°": "um",
     #     "2°": "dois",
     #     "3°": "três",
     #     "4°": "quatro",
     # }
+
     # removerInicio(dicio)
-    print("")
+
+    # Questão 16
+    # def ordenarLista(lista):
+    #     n = len(lista)
+    #     for i in range(n):
+    #         for j in range(0, n-i-1):
+    #             if lista[j]["nome"].lower() > lista[j+1]["nome"].lower():
+    #                 lista[j], lista[j+1] = lista[j+1], lista[j]
+    #     print(lista)
+        
+    # lista = [{"nome": "Bruno", "média": "5.0"},{"nome": "arthur", "média": "7.0"},{"nome":"josefina","média" : "8.0"}]
+    # ordenarLista(lista)
+    print()
 
 if __name__ == "__main__":
     main()
