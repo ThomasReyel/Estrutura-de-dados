@@ -17,7 +17,7 @@ def main():
     # b) 1
     # c) 3
     # d) 3
-    # e) 5
+    # e) 6
     # Questão 7: d) c) a) e) b)
 
     # Questão 8
