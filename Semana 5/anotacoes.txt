@@ -1,0 +1,5 @@
+Calculo de log (n)
+IC = interações no ciclo
+IUC = interações no ultimo ciclo
+n = tamanho da lista 
+IC * (log₂ n) + IUC
